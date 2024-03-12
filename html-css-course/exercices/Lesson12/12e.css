@@ -1,0 +1,35 @@
+* {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+p {
+    margin: 0;
+}
+
+.box {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(202, 202, 202);
+    border-radius: 5px;
+    width: 250px;
+    padding: 5px 10px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-detail-number{
+    background-color: rgb(37, 109, 243);
+    color: white;
+    padding: 1px 8px;
+    border-radius: 10px;
+}
