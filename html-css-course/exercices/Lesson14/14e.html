@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+            }
+            .friend-sugestion {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                padding: 10px 50px;
+            }
+            .friend-info{
+                display: flex;
+                align-items: center;
+            }
+            img {
+                height: 35px;
+                width: 35px;
+                object-fit: cover;
+                border-radius: 28px;
+                margin-right: 5px;
+            }
+            p{
+                margin: 0;
+                font-weight: bold;
+            }
+            button{
+                border: none;
+                padding: 5px 10px;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+            .add-button{
+                background-color: rgba(55, 114, 220, 1);
+                color: white;
+            }
+        </style>
+    </head>
+    <body style="height: 3000px;">
+        <div class="friend-sugestion">
+            <div class="friend-info">
+                <img src="../../img/cat-cafe-pet.jpg" alt="">
+                <p>Oliver Cat</p>
+            </div>
+            <div class="options">
+                <button class="add-button">Add Friend</button>
+                <button class="message-button">Message</button>
+            </div>
+        </div>
+    </body>
+</html>
