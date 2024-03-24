@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .percent-discount {
+                position: absolute;
+                top: 8px;
+                right: 0;
+                background-color: black;
+                color: white;
+            }
+
+            .add-to-card-container {
+                background-color: rgba(255, 255, 255, 0.8);
+                position: absolute;
+                bottom: 4px;
+                right: 0;
+                left: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 57px;
+            }
+
+            .add-to-card-container button {
+                background-color: white;
+                border: solid;
+                border-width: 1px;
+                padding: 5px 10px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="position: relative; display: inline-block;">
+            <img src="../../img/jacket.jpg" alt="" style="width: 300px">
+            <div class="percent-discount">20% OFF</div>
+            <div class="add-to-card-container">
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </body>
+</html>
